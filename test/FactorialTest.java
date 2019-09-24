@@ -19,13 +19,13 @@ public class FactorialTest extends TestCase {
         assertEquals(720, output);
 
 
-        // x må ikke være 0 og skal returnere -1 hvis det er tilfældet.
+        // x skal returnere 1 hvis x er 0 da det er definitionen.
 
         x = 0;
         output = Factorial.findFactorial(x);
-        assertEquals(-1, output);
+        assertEquals(1, output);
 
-        // x må heller ikke være negativ (f.eks. -5) og skal returnere -1 hvis det er tilfældet.
+        // x må ikke være negativ (f.eks. -5) og skal returnere -1 hvis det er tilfældet.
 
         x = -5;
         output = Factorial.findFactorial(x);
