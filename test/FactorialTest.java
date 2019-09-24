@@ -19,7 +19,7 @@ public class FactorialTest extends TestCase {
         assertEquals(720, output);
 
 
-        // x skal returnere 1 hvis x er 0 da det er definitionen.
+        // x skal returnere 1 hvis x er 0 da det er definitionen i matematik.
 
         x = 0;
         output = Factorial.findFactorial(x);
