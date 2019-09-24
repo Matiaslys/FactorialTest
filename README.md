@@ -1,6 +1,6 @@
 # FactorialTest
 
-Edge case 1 omhandler tallet.
+Edge case 1 omhandler tallet 0.
 Hvis x er 0 skal den returnere 1 da 0! = 1 i matematik
 
 Edge case 2 omhandler negative tal
