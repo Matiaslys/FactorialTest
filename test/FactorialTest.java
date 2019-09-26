@@ -31,10 +31,10 @@ public class FactorialTest extends TestCase {
         output = Factorial.findFactorial(x);
         assertEquals(-1, output);
 
-        // x må ikke være højere end 19 (F.eks. 20) og skal returnere -1 hvis det er tilfældet.
-        // Grunden er at int ikke kan rumme højere end 19.
+        // x må ikke være højere end 16 (F.eks. 20) og skal returnere -1 hvis det er tilfældet.
+        // Grunden er at int ikke kan rumme højere end 16.
 
-        x = 20;
+        x = 16;
         output = Factorial.findFactorial(x);
         assertEquals(-1, output);
     }
